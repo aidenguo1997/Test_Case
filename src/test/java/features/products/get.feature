@@ -1,7 +1,7 @@
 Feature: Testing product API with Get requests
 
   Background:
-    * url "http://http://localhost:8085/"
+    * url "http://http://127.0.0.1:8083/"
 
   Scenario: get all products
     Given path "products"
