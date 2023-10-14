@@ -1,7 +1,7 @@
 Feature: Testing product API with POST、PUT、DELETE requests
 
   Background:
-    * url "http://127.0.0.1:8083/"
+    * url "http://127.0.0.1:8082/"
 
   Scenario: post the product、modify price for product and delete the product by id
     Given   path "products"
